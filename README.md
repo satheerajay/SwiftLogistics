@@ -1,4 +1,4 @@
-# STL Telecommunication App
+# SwiftLogistics App
 
 A comprehensive telecommunications application built with React and Node.js, featuring bill management, payment processing, and customer management capabilities.
 
@@ -22,6 +22,7 @@ stl-telecommunication-app/
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - **React 18.2.0**: Modern React with hooks and functional components
 - **React Router DOM**: Client-side routing
 - **Chakra UI & Bootstrap**: UI component libraries
@@ -29,6 +30,7 @@ stl-telecommunication-app/
 - **Axios**: HTTP client for API communication
 
 ### Backend
+
 - **Node.js**: Runtime environment
 - **Express.js**: Web application framework
 - **PostgreSQL**: Database for data persistence
@@ -39,6 +41,7 @@ stl-telecommunication-app/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - PostgreSQL database
 - Stripe account for payment processing
@@ -46,12 +49,14 @@ stl-telecommunication-app/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Iflal/stl-telecommunication-app.git
    cd stl-telecommunication-app
    ```
 
 2. **Setup Payment Backend**
+
    ```bash
    cd Bill_Management/Payment
    npm install
@@ -59,6 +64,7 @@ stl-telecommunication-app/
    ```
 
 3. **Setup Payment Frontend**
+
    ```bash
    cd Bill_Management/paymentfront
    npm install
@@ -77,6 +83,7 @@ stl-telecommunication-app/
 Create `.env` files in the respective directories with the following variables:
 
 **Bill_Management/Payment/.env**
+
 ```
 DATABASE_URL=your_postgresql_connection_string
 STRIPE_SECRET_KEY=your_stripe_secret_key
@@ -84,6 +91,7 @@ PORT=5252
 ```
 
 **Bill_Management/paymentfront/.env**
+
 ```
 REACT_APP_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 REACT_APP_API_URL=http://localhost:5252
@@ -92,11 +100,13 @@ REACT_APP_API_URL=http://localhost:5252
 ## 🏗️ Architecture
 
 ### Payment Service
+
 - **Backend**: Express.js server handling payment processing
 - **Frontend**: React application for payment interface
 - **Integration**: Stripe for secure payment processing
 
 ### Main Application
+
 - **Frontend**: Customer dashboard and service management
 - **Components**: Built with React and modern UI libraries
 - **Routing**: Multi-page application with React Router
@@ -115,13 +125,14 @@ REACT_APP_API_URL=http://localhost:5252
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Create a Pull Request
 
-## 📝 License
+<!-- ## 📝 License
 
-This project is licensed under the ISC License.
+This project is licensed under the ISC License. -->
 
 ## 👨‍💻 Author
 
-**Iflal** - [GitHub Profile](https://github.com/Iflal)
+**Satheera** - [GitHub Profile](https://github.com/satheerajay)
+**Lomitha** - [GitHub Profile](https://github.com/Iflal)
 
 ## 🐛 Issues
 
@@ -129,4 +140,4 @@ If you encounter any issues or have suggestions, please [create an issue](https:
 
 ---
 
-*Last updated: October 2024*
+_Last updated: October 2024_
