@@ -131,7 +131,7 @@ This project is licensed under the ISC License. -->
 
 ## 👨‍💻 Author
 
-**Satheera** - [GitHub Profile](https://github.com/satheerajay)
+**Satheera** - [GitHub Profile](https://github.com/satheerajay)  
 **Lomitha** - [GitHub Profile](https://github.com/Iflal)
 
 ## 🐛 Issues
