@@ -129,7 +129,7 @@ REACT_APP_API_URL=http://localhost:5252
 
 This project is licensed under the ISC License. -->
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
 **Satheera** - [GitHub Profile](https://github.com/satheerajay)  
 **Lomitha** - [GitHub Profile](https://github.com/Iflal)
